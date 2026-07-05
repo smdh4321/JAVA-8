@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-//distinct() limit()  --> non-terminal methods
-//count() forEach() toArray() reduce() --> terminal methods
+//distinct() limit() skip() --> non-terminal methods
+//count() forEach() reduce() toArray() --> terminal methods
 public class ImportantMethodsEx {
     public static void main(String[] args) {
         List<String> vehicles = Arrays.asList("car","bus","bicycle","car","bus","bike");
